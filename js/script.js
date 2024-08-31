@@ -97,7 +97,7 @@ document.getElementById("s-9").addEventListener("change", f9);
 
 // Task 10
 function f10(event) {
-  event.preventDefault(); // Prevent the form from submitting
+  event.preventDefault();
 
   const firstName = document.getElementById("inputFirstName").value;
   const lastName = document.getElementById("inputLastName").value;
